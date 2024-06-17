@@ -1,4 +1,4 @@
-# bussiness-rules-plataform
+# Business Rules Plataform
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ Before starting, you will need to have the following tools installed on your mac
 Clone the repository:
 
 ```bash
-git clone https://github.com/jteoni/bussiness-rules-plataform.git
-cd bussiness-rules-plataform
+git clone https://github.com/jteoni/business-rules-plataform.git
+cd business-rules-plataform
 ```
 
 ### Start the services:
