@@ -2,8 +2,6 @@
 
 ## Prerequisites
 
-Before starting, you will need to have the following tools installed on your machine:
-
 -   [Docker](https://www.docker.com/get-started)
 -   [Docker Compose](https://docs.docker.com/compose/install/)
 
