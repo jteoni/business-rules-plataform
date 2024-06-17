@@ -22,5 +22,4 @@ cors_rules = {
     ]
 }
 
-# Configurar as regras de CORS no bucket
 s3_client.put_bucket_cors(Bucket=bucket_name, CORSConfiguration=cors_rules)
