@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AWS_ACCESS_SECRET_KEY = 'test'
 AWS_ACCESS_KEY_ID = 'test'
 AWS_ENDPOINT_URL = os.environ.get("AWS_ENDPOINT_URL")
-BUCKET_NAME = 'debt-processing'
+BUCKET_NAME = 'business-rules-processing'
 
 
 

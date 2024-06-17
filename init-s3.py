@@ -1,5 +1,5 @@
 import boto3
-bucket_name = 'debt-processing'
+bucket_name = 'business-rules-processing'
 
 s3_client = boto3.client(
     "s3",
