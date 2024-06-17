@@ -1,50 +1,49 @@
 # Business Rules Plataform
 
-## Prerequisites
+### Overview
 
--   [Docker](https://www.docker.com/get-started)
--   [Docker Compose](https://docs.docker.com/compose/install/)
+This project is an businees rules processing system for a company. The system consists of uploading, listing and downloading CSV files and sending invoices by email.
 
-### Running the Application
+## Technologies Used
+
+- **Python:**
+- **Django:**
+- **React:**
+- **Docker:**
+- **Git:**
+
+## Project Structure
+
+- **backend/:** Contains the entire backend structure.
+- **frontend/:** Contains the entire frontend structure.
+
+## How to run the Project
+
+### Prerequisites
+- Docker
+- Docker Compose
 
 Clone the repository:
-
-```bash
+```
 git clone https://github.com/jteoni/business-rules-plataform.git
 cd business-rules-plataform
 ```
-
-### Start the services:
-
-```bash
+Start docker-compose:
+```
 docker-compose up
 ```
-
-### Accessing the application
-
-The application will be available at [http://localhost:8000](http://localhost:8000).
-
-## Overview
-
--   Upload Feature
--   File Listing
--   File Download
--   Sending Invoices (Emails)
-
-## Automated Tests
-
-### Frontend
-
-For the frontend, we use Jest for automated testing. The tests can be run with the following command:
-
-```bash
-yarn test
+Access the aplication:
+```
+http://localhost:8000
 ```
 
-### Backend
+## How to test
 
-In the backend, tests are performed using Django's test framework. To run the tests, use the command:
-
-```bash
+Backend:
+```
 python manage.py test
+```
+Frontend:
+```
+yarn test
 ```
