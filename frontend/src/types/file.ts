@@ -7,17 +7,13 @@ type ReducerAction<T, P> = {
   payload?: Partial<P>;
 };
 
-
 type FileContextState = {
   isLoading: boolean;
   file: File | null;
-  fileList: File[]; // & {} You can add more information about the challenge inside this type
+  fileList: File[];
 };
 
-type FileAction = ReducerAction<
-  FileActionType,
-  Partial<FileContextState>
->;
+type FileAction = ReducerAction<FileActionType, Partial<FileContextState>>;
 
 type FileDispatch = ({ type, payload }: FileAction) => void;
 
@@ -35,4 +31,4 @@ export type {
   FileDispatch,
   FileContextType,
   FileProviderProps,
-}
+};
